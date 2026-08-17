@@ -3,12 +3,4 @@ __pycache__/
 *.o
 .DS_Store
 gpu_kernel/match_kernel
-data/*.shp
-data/*.shx
-data/*.dbf
-data/*.prj
-data/*.cpg
-data/*.zip
-data/*.geojson
-data/ne_10m_countries/
-data/land-polygons-split-4326/
+data/
