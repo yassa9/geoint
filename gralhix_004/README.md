@@ -7,6 +7,9 @@ Writeup: [placeholder]
 ## Setup
 
 ```sh
+git clone https://github.com/yassa9/geoint.git
+cd geoint/gralhix_004
+
 pip install numpy scipy geopandas shapely matplotlib rasterio requests
 mkdir data
 ```
