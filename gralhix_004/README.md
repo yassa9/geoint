@@ -2,7 +2,7 @@
 
 Challenge: [OSINT Exercise #004 by Sofia Santos, gralhix](https://gralhix.com/list-of-osint-exercises/osint-exercise-004/)
 
-Writeup: [placeholder]
+Writeup: [Geolocating Random Islet Image Using Geometry & CUDA GPU Programming](https://yassa9.github.io/osint/gralhix-004/)
 
 ## Setup
 
@@ -39,13 +39,13 @@ cd ..
 Each stage reads the previous stage's output and writes its own, in order:
 
 ```sh
-python3 01_triangle_gui.py                                    # click P0, P1, P2 -> triangle_*.json
-python3 02_search.py                                          # -> candidates_search.json
-python3 03_coral_filter.py                                    # -> candidates_coral.json
-python3 04_oval_filter.py                                     # -> candidates_oval.json
-python3 05_ndvi_filter.py                                     # -> candidates_ndvi.json
-python3 06_elevation_filter.py                                # -> candidates_elevation.json
-python3 07_report.py                                          # -> report.html
+python3 01_triangle_gui.py             # click P0, P1, P2 -> triangle_*.json
+python3 02_search.py                   # -> candidates_search.json
+python3 03_coral_filter.py             # -> candidates_coral.json
+python3 04_oval_filter.py              # -> candidates_oval.json
+python3 05_ndvi_filter.py              # -> candidates_ndvi.json
+python3 06_elevation_filter.py         # -> candidates_elevation.json
+python3 07_report.py                   # -> report.html
 ```
 
 Every stage takes `--in`/`--out` to point at a different file instead of the default.
